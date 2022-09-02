@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" content="IE=firefox" content="IE=brave" content="IE=chrome">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="scrypt.js"></script>
+        <title>Encriptador</title>
+    </head>
+
+    <body>
+        <section class="contenedor-general">
+            <div class="logo-a">
+                <img class="logo" src="imagenes/logo.png" alt="Logo-a">
+                <h1 class="titulo-logo">Encriptador de mensaje</h1>
+
+            </div>
+            <div class="contenedor-left">
+                
+                <textarea class="input-text" name="name" id="inputText" cols="30" rows="10" >"Ingrese el texto aquí"</textarea>
+                 
+            </div>
+            <div class="contenedor-right">
+                <img src="imagenes/muneco.png" alt="muñeco encriptador" id="contenedor-muneco">
+            
+                <h1 id="contenedor-texto1">Ningun mensaje fue encontrado</h1>
+                <textarea id="contenedor-texto2" name="name" cols="30" rows="10">Ingrese el texto que desees encriptar o desencriptar.</textarea>
+                <button  id="btn-copiar" onclick="copy()">Copiar</button>
+            </div>
+
+            <div class="botones">
+                <div class="condiciones">
+                    <img class="vector" src="imagenes/Vector.png" alt="vector !">  Solo letras minusculas y sin acentos   
+                </div>
+                
+                <button  id="btn-encriptar" onclick="btnencriptar()">Encriptar</button>
+                <button  id="btn-desencriptar" onclick="btndesencriptar()">Desencriptar</button>
+            </div>
+
+        </section>
+        <footer>
+            <div class="footer">
+                 © 2022 Todos los Derechos Reservados| by Tere Miranda | teremirandap20@gmail.com | alura challenge
+            </div>
+        </footer>
+    </body>
+    
+</html>

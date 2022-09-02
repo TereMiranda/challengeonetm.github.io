@@ -1,0 +1,216 @@
+body{
+        background: #eaeaec;
+    }
+
+   section{
+       background: #F3F5FC;
+       font-family: Arial, Helvetica, sans-serif;
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box
+    }
+   
+   .contenedor-general{
+       margin: auto;
+       width: 960px;
+       height: 650px;
+       padding: 5px;
+    }
+   
+   .logo-a{
+       width: 100%;
+       float: left;
+    }
+
+   .logo{
+       margin-top: 1%;
+       margin-left: 5%;
+       float: inherit;
+    }
+   
+   .titulo-logo{
+       font-family: Arial, Helvetica, sans-serif;
+       float: inherit;
+       margin-left: 10%;
+       color: #05346e;
+    }
+   
+   .contenedor-left{  
+       float: left;
+       width: 70%;
+       height: 70%;
+       border-radius: 24px;
+       background: #F3F5FC;
+       
+    }
+   
+   .input-text{
+       position: absolute;
+       width: 577px;
+       height: 55px;
+       left: 220px;
+       top: 168px;
+       float: left;
+       color: #05346e;
+       text-align: center;
+       font-weight: 400;
+       font-size: 32px;
+       border: none;
+       outline: none;
+       font-family: Arial, Helvetica, sans-serif;
+       resize: both;
+    }
+   
+   
+   
+   #inputText{
+       line-height: 150%;    
+       height: 55%;
+       margin-top: 170px;
+       background-color: #F3F5FC;
+       margin-top: -4%;
+       margin-left: 4%;
+       box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    }
+   
+   .contenedor-right{
+       float: right;
+       width: 30%;
+       height: auto;
+       border-radius: 32px;
+       box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+       background: white;
+    }
+   
+   #contenedor-muneco{
+       margin-left: 2%;
+       margin-top: 20%;
+       width: 90%;
+       height: auto;
+    }
+   
+   #contenedor-texto1{
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+       margin-left: 7%;
+       margin-right: 5%;
+    }
+   
+   #contenedor-texto2{
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+       float: left;
+       margin-left: 10%;
+       color: #55595f;
+       width: 80%;
+       height: 60%;
+       border: none;
+       outline: none;
+       font-size: 13px;
+       resize: none;
+    }
+   
+   #btn-copiar{
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 15px;
+       margin-left: 33%;
+       margin-top: 90%;
+       padding: 24px;
+       width: 40%;
+       height: 10%;
+       background: #D8DFE8;
+       border-radius: 24px;
+       display: none;
+    }
+   
+   .botones{
+       float: left;
+       width: 70%;
+       height: auto;
+       border-radius: 24px;
+       font-size: 10px;
+       color: darkgray;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+   
+   .condiciones{
+       width: 205px;
+       height: 15px;
+       margin-left: 3%;
+       margin-top: -5%;
+       font-family: Arial, Helvetica, sans-serif;
+       font-style: normal;
+       font-weight: 400;
+       font-size: 11px;
+       line-height: 150%;
+       padding: 2%;
+       color: #495057;
+       opacity: 0.8;
+       flex: none;
+       order: 1;
+       flex-grow: 0;
+       padding-right: 5%;      
+    }
+   .vector{
+       font-family: Arial, Helvetica, sans-serif;
+       padding: -10%;
+       height: 12px;
+       margin-left: 2%;
+       margin-top: -5%;
+       padding-left: 1%;
+    }
+   
+   #btn-encriptar{
+       font-family: Arial, Helvetica, sans-serif;
+       flex-direction: row;
+       align-items: flex-start;
+       padding: 24px;
+       gap: 8px;
+       width: 40%;
+       height: 60%;
+       font-size: 17px;
+       text-align: center;
+       border-radius: 24px;
+       margin-left: 5%;
+       background: #0A3871;
+       flex: none;
+       order: 0;
+       flex-grow: 0;
+       border: 1px solid #0A3871;
+       color: #D8DFE8;
+    }
+   
+   
+   #btn-desencriptar{
+       font-family: Arial, Helvetica, sans-serif;
+       box-sizing: border-box; 
+       flex-direction: row;
+       align-items: flex-start;
+       padding: 24px;
+       gap: 8px;
+       width: 40%;
+       height: 60%;
+       font-size: 17px;
+       text-align: center;
+       border: 1px solid #0A3871;
+       border-radius: 24px;
+       margin-left: 5%;
+       background: #D8DFE8;
+       flex: none;
+       order: 1;
+       flex-grow: 0;
+       color: #0A3871;
+    }
+   
+   .footer{
+       width: 100%;
+       height: 25px;
+       background-color: rgba(39, 22, 22, 0.575) ;
+       bottom: 0;
+       text-align: center;
+       margin-top: 0px;
+       padding-top: 0px;
+       border-top: 1px solid #222;
+       margin: 0 auto;
+    }
+   
